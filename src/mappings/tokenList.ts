@@ -9,7 +9,7 @@ import {
 } from '@graphprotocol/graph-ts'
 import { Token } from '../types/schema'
 
-const TOKEN_LIST_IPFS = 'QmaqHpNMX792PnQQAUZetckYQQBEJv5CCyNzEBjwU1TGgF' // Kleros T2CR (t2crtokens.eth)
+const TOKEN_LIST_IPFS = 'QmUZgEKXcf4HMbXsGyXZT2vqHSSP4BeaQ1cNWqno3gU32v' // Kleros T2CR (t2crtokens.eth)
 
 // Fallback to tokenlist if ERC20 function reverts
 export function fetchTokenFromTokenList(tokenAddress: Address) : Token | null {
